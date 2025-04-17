@@ -1,0 +1,30 @@
+/* Wrapper container */
+.search-filter-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        padding: 80px;
+        background-color: #f8f8f8;
+    }
+    
+    /* Input styles */
+    .search-filter-container input[type="text"],
+    .search-filter-container select {
+        padding: 10px 15px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        min-width: 250px;
+        max-width: 100%;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Focus styles */
+    .search-filter-container input[type="text"]:focus,
+    .search-filter-container select:focus {
+        outline: none;
+        border-color: #eb5325;
+        box-shadow: 0 0 0 2px rgba(235, 83, 37, 0.2);
+    }
+    
