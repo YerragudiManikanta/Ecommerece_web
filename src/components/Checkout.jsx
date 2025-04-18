@@ -10,7 +10,7 @@ const Checkout = () => {
 
     const handleCheckout = () => {
         // Handle the checkout logic here
-        alert("Checkout successful!");
+        alert("Checkout successfully!");
     };
 
     return (
@@ -26,7 +26,7 @@ const Checkout = () => {
                         ))}
                     </ul>
                     <h3>Total: ${total}</h3>
-                    <button onClick={handleCheckout}>Proceed to Checkout</button>
+                    <button onClick={handleCheckout}>Proceed to Checkouts</button>
                 </>
             )}
         </div>
