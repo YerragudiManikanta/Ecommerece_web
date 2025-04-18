@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/contact">
-            <FaPhoneAlt size={20} /> Contact
+            <FaPhoneAlt size={20} /> Contacts
           </Link>
         </li>
         <li>
