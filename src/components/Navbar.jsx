@@ -15,12 +15,12 @@ const Navbar = () => {
       <ul className="navbar-links">
         <li>
           <Link to="/">
-            <FaHome size={20} />Homes
+            <FaHome size={20} />HomeWeb
           </Link>
         </li>
         <li>
           <Link to="/products">
-            <FaShoppingCart size={20} /> Products
+            <FaShoppingCart size={20} /> Products Details
           </Link>
         </li>
         <li>
